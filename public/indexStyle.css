@@ -1,0 +1,134 @@
+
+body{
+    height: 100vh;
+   
+}
+
+button{
+    color:dimgray;
+}
+.dugme{
+    background: transparent ;
+    border: 3px solid #4CA1AF;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+ z-index: 1;
+    
+}
+.dugmeTxt{
+    color:darkgray;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+}
+.TopBar{
+    color: white;
+    background: linear-gradient(#2C3E50,#4CA1AF)
+}
+.dugme:hover {
+
+    background:#4CA1AF;
+    color: white;
+    
+}
+
+.MainSection{
+    color:dimgray;
+}
+.Apartman{
+    grid-column: span 1;
+    border: solid #4CA1AF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px   #4CA1AF;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.image{
+    width: 100%;
+    max-width:100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+   
+}
+.MainContainerProducts{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    grid-row-gap:50px;
+
+}
+.Footer{
+   
+        position:fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        background: #4CA1AF;
+  
+  color: white;
+}
+.imageC{
+    width: 500px;
+}
+.imageDetails{
+    
+  
+  
+  
+    background-size: cover;
+    background-position: center;
+}
+
+.dugmeTopBar{
+    background: white ;
+    border: 3px solid #98d7e2;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+}
+
+.dugmeTopBar:hover{
+
+    background:#4CA1AF;
+    color: white;
+}
+
+.dialog{
+
+    transform: translateY(-1400px);   
+    transition:all  500ms ease-in;
+    color: white;
+    border-radius: 5px;
+   
+    position: absolute;
+    background-color: mediumseagreen;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+}
+.dialog.show{
+
+    transform: translateY(0px);  
+  
+}
+.dialog button{
+    transition:all  500ms ease-in;
+}
+.dialog button:hover{
+   background-color: darkgray;
+  
+  
+}
+.DialogCover.show{
+    visibility: visible;
+    background-color: rgba(87, 87, 87, 0.8);
+}
+.DialogCover {
+    visibility: hidden;
+    transition:all  300ms ease-in;
+}
